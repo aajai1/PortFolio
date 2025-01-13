@@ -73,15 +73,20 @@ public class ContactTest {
 		}
 		
 		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/a[3]/div")).click();
-		Set<String> tabs =  driver.getWindowHandles();
-		List<String> list = new ArrayList<String>(tabs);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.findElement(By.xpath("//*[@id=\"project\"]/div/div[1]/div/button")).click();
 		
-		WebElement ecommerceLink = (WebElement) driver.switchTo().window(list.get(0));
 		String currentUrl= driver.getCurrentUrl();
-		boolean iscurrent = currentUrl.equals("https://web-1-8cji.vercel.app/");
+		//System.out.println(currentUrl);
+		boolean iscurrent = currentUrl.equals("https://portfolio-sable-delta-81.vercel.app/");
 		
 		if(iscurrent) {
-			System.out.println("Current url : "+currentUrl);
+			System.out.println("Current url : "+ currentUrl);
 			
 		}else {
 			System.out.println("link not matched");
