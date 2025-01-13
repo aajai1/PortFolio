@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-14T00:03:14 IST" name="Default suite" finished-at="2025-01-14T00:03:22 IST" duration-ms="7534">
+  <suite started-at="2025-01-14T01:10:27 IST" name="Default suite" finished-at="2025-01-14T01:10:39 IST" duration-ms="12936">
     <groups>
     </groups>
-    <test started-at="2025-01-14T00:03:14 IST" name="Default test" finished-at="2025-01-14T00:03:22 IST" duration-ms="7534">
-      <class name="com.PortTest.test.ContactTest">
-        <test-method signature="contactTest()[pri:0, instance:com.PortTest.test.ContactTest@1623b78d]" started-at="2025-01-14T00:03:14 IST" name="contactTest" finished-at="2025-01-14T00:03:22 IST" duration-ms="7507" status="PASS">
+    <test started-at="2025-01-14T01:10:27 IST" name="Default test" finished-at="2025-01-14T01:10:39 IST" duration-ms="12936">
+      <class name="com.PortTest.test.socialConnections">
+        <test-method signature="socialConnections()[pri:0, instance:com.PortTest.test.socialConnections@77fbd92c]" started-at="2025-01-14T01:10:27 IST" name="socialConnections" finished-at="2025-01-14T01:10:30 IST" duration-ms="3457" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactTest -->
-      </class> <!-- com.PortTest.test.ContactTest -->
+        </test-method> <!-- socialConnections -->
+      </class> <!-- com.PortTest.test.socialConnections -->
+      <class name="com.PortTest.test.PortFunctions">
+        <test-method signature="PortFunctions()[pri:0, instance:com.PortTest.test.PortFunctions@1bd4fdd]" started-at="2025-01-14T01:10:30 IST" name="PortFunctions" finished-at="2025-01-14T01:10:39 IST" duration-ms="9448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PortFunctions -->
+      </class> <!-- com.PortTest.test.PortFunctions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
