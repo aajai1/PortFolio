@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.PortTest.test.PortFunctions">
+      <class name="com.PortTest.test.DresumeDownload">
         <methods>
-          <include name="PortFunctions"/>
+          <include name="resumeDownload"/>
         </methods>
-      </class> <!-- com.PortTest.test.PortFunctions -->
+      </class> <!-- com.PortTest.test.DresumeDownload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

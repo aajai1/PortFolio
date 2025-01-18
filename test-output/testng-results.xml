@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-18T06:05:38 IST" name="Default suite" finished-at="2025-01-18T06:05:48 IST" duration-ms="10453">
+  <suite started-at="2025-01-18T06:39:59 IST" name="Default suite" finished-at="2025-01-18T06:40:22 IST" duration-ms="23301">
     <groups>
     </groups>
-    <test started-at="2025-01-18T06:05:38 IST" name="Default test" finished-at="2025-01-18T06:05:48 IST" duration-ms="10453">
+    <test started-at="2025-01-18T06:39:59 IST" name="Default test" finished-at="2025-01-18T06:40:22 IST" duration-ms="23301">
+      <class name="com.PortTest.test.socialConnections">
+        <test-method signature="socialConnections()[pri:0, instance:com.PortTest.test.socialConnections@59474f18]" started-at="2025-01-18T06:39:59 IST" name="socialConnections" finished-at="2025-01-18T06:40:06 IST" duration-ms="7139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- socialConnections -->
+      </class> <!-- com.PortTest.test.socialConnections -->
+      <class name="com.PortTest.test.DresumeDownload">
+        <test-method signature="resumeDownload()[pri:0, instance:com.PortTest.test.DresumeDownload@33d512c1]" started-at="2025-01-18T06:40:06 IST" name="resumeDownload" finished-at="2025-01-18T06:40:13 IST" duration-ms="6924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resumeDownload -->
+      </class> <!-- com.PortTest.test.DresumeDownload -->
       <class name="com.PortTest.test.PortFunctions">
-        <test-method signature="PortFunctions()[pri:0, instance:com.PortTest.test.PortFunctions@71d44a3]" started-at="2025-01-18T06:05:38 IST" name="PortFunctions" finished-at="2025-01-18T06:05:48 IST" duration-ms="10410" status="PASS">
+        <test-method signature="PortFunctions()[pri:0, instance:com.PortTest.test.PortFunctions@515c6049]" started-at="2025-01-18T06:40:13 IST" name="PortFunctions" finished-at="2025-01-18T06:40:22 IST" duration-ms="9212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PortFunctions -->

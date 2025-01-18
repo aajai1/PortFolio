@@ -113,7 +113,7 @@ public class PortFunctions {
 		//driver.switchTo().window(parent);
 		
 		
-		//driver.quit();
+		driver.quit();
 	
 		
 		
